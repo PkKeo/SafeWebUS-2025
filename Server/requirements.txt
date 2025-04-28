@@ -1,0 +1,11 @@
+fastapi
+pydantic
+pillow
+requests
+torch
+torchvision
+open-clip-torch
+scikit-learn
+imageio
+mysql-connector-python
+uvicorn

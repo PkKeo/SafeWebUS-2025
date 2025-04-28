@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abort History</title>
+  <style>
+      h2 {
+    text-align: center;
+    margin-top: 1.5em;  /* optional spacing */
+    margin-bottom: 0.5em;
+  }
+    #WebChart, #TagChart, #HourChart{
+      max-width: 800px;
+      max-height: 400px;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2>Abort count per Website</h2>
+<canvas id="WebChart" width="800" height="400"></canvas>
+
+<h2>Abort count per Tag</h2>
+<canvas id="TagChart" width="800" height="400"></canvas>
+
+<h2>Abort count per Hour</h2>
+<canvas id="HourChart" width="800" height="400"></canvas>
+
+
+
+  <script src="libs/chart.umd.min.js"></script>
+  <script src="history.js"></script>
+</body>
+</html>

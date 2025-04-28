@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Checker</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .tag-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+    .tag-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+    .tag-item input {
+      width: 150px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 5px;
+      cursor: pointer;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      font-size: 14px;
+      border-radius: 3px;
+      margin-top: 5px;
+    }
+    .icon {
+      cursor: pointer;
+      font-size: 18px;
+      color: #007bff;
+      margin-left: 5px;
+    }
+    .icon:hover {
+      color: #0056b3;
+    }
+    #status {
+      font-size: 14px;
+      color: green;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Enter tags with descriptions optionaly</h3>
+  <ul id="tagList" class="tag-list"></ul>
+  <button id="addTag">+ Add Tag</button>
+  <button id="saveTags">Save</button>
+  <Button id="viewHistory">History Block</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
