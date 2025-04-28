@@ -3,6 +3,7 @@ const MIN_IMAGE_AREA = 2500;
 let scanID;
 let setUrlCheck = new Set();
 const defaultMaskUrl = "https://www.meowbox.com/cdn/shop/articles/Screen_Shot_2024-03-15_at_10.53.41_AM.png?v=1710525250";
+const scanFrequency = 2000;
 
 function scanImages(tags, setUrlCheck) {
   const webUrl = window.location.hostname;
@@ -80,7 +81,7 @@ chrome.storage.local.get(["userTags"], (result) => {
   if (tags.length > 0) {
     scanID = setInterval(() => {
       scanImages(tags, setUrlCheck);
-  }, 2000);
+  }, scanFrequency);
   } else {
     console.log("No tags defined by user. Skipping scan.");
   }
@@ -109,6 +110,6 @@ chrome.runtime.onMessage.addListener((message, sender) => {
     // 2) Schedule periodic rescans
     scanID = setInterval(() => {
       scanImages(newtags, setUrlCheck);
-    }, 2000);
+    }, scanFrequency);
   }
 });
