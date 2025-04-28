@@ -30,8 +30,8 @@ To support running on different devices, you need to clone with the **exactly** 
 3. Click **Load unpacked** and select the **Extension** folder from this repository.  
 4. The extension will now be available in Chrome.
 5. At the first time using, the extension asks you for some permissions to work correctly.
-6. Use Add/Edit/Clear and Save to provide your unwanted tags.
-7. History Block can be used to visualize your abortions of block images. 
+6. Click this extension from the toolbar then you can use Add/Edit/Clear and Save to provide your unwanted tags.
+7. Click on History Block to visualize your abortions of block images. 
 
 ### 3. Something for you to play around :)
 
