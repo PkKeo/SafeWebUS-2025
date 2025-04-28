@@ -10,6 +10,8 @@ The repository is organized into two main folders:
 - **Server**: Contains the backend server code that processes requests and handles server-side functionality.
 
 ## How to Run the Extension
+### Notice on clone path
+To support running on different devices, you need to clone with the **exactly** path: **D:\SafeWebUpdate\SafeWebUS-2025**
 
 ### 1. Set Up the Backend Server
 
