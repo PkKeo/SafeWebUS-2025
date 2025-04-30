@@ -3,7 +3,7 @@
 SafeWebUS-2025 is an AI-powered Chrome extension that automatically hides images on web pages based on custom tags provided by the user. The extension is designed to help users filter content and improve their browsing experience.
 
 ## Demo video
-[![Demo Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=MwKWz402dJg)
+[![Demo Video](https://camo.githubusercontent.com/c9e535a04f19fbc8e9eb49a55316d0f14d667b9206a9a8d8a74308b5b563bb3f/68747470733a2f2f61646d696e2e676f6f676c6575736572636f6e74656e742e636f6d2f6c6f676f2d7363732d6b657933323231373737)](https://www.youtube.com/watch?v=MwKWz402dJg)
 
 ## Project Structure
 
